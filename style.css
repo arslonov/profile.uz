@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    height: 700px;
+}
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 150px auto;
+    
+    border: 1px solid black;
+}
+.flex__item{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    
+}
+.flex__item1{
+    width: 450px;
+    height: 600px;
+    border: 1px solid black;
+    background-color: rgb(100, 109, 185);
+}
+
+.flex__item1{
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+font-size: 1.5rem;
+position: relative;
+z-index: 2;
+background-color: rgba(45, 22, 129,.9)(14, 5, 5,.9);
+}
+.flex__item1 p{
+    margin: 20px;
+    color: rgb(3, 3, 3);
+    font-size: 1.5rem;
+    
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 200px;
+    height: 50px;
+   border: 1px solid black;
+    background-color: rgb(4, 4, 56)28, 28, 128);
+
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+
+
+}
+.flex__item1 .btn{
+    position: absolute;
+    right: 110px;
+    background-color: rgba(4, 4, 56)28, 28, 128,.9);
+}
+.flex__item {
+    text-align: center;
+    padding-top: 120px;
+    
+   
+}
+.flex__item #name{
+    padding: 20px 20px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+.flex__item h1{
+    margin: 20px;
+    font-size: 2rem;
+}
+.flex__item h3{
+    margin: 20px;
+    font-size: 1.2rem;
+}
+.flex__item textarea{
+    margin: 8px;
+}
+.flex__item .btn{
+    background-color: blue;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 210px;
+font-size: 1.4rem;
+transition: all 5s ease-in-out;
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+.parol a{
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.btn :hover{
+    transition: all 2s ease-in-out;
+    background-color: rgb(75, 63, 63);
+    color: rgb(255, 0, 0);
+}
+.flex__item h1{
+    color: blue;
+    font-size: 3.2rem;
+}
+.flex__item{
+    background-color: rgba(219, 202, 202,.9);
+    position: relative;
+z-index: 3;
+    
+}
+.border__left{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 400px;
+    background-color: rgb(200, 165, 6);
+    left: -70px;
+    bottom: -250px;
+
+}
+.border__right{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    border-radius: 200px;
+    background-color: rgba(4, 16, 71,.9);
+   bottom: 450px;
+    left: 1300px;
+   
+   
+}
+.flex__item1{
+    position: relative;
+    z-index: 3;
+}
+.flex__item1{
+    position: relative;
+    background-color: rgba(7, 7, 112, 0.9);
+}
